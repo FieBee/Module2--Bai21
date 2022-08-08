@@ -1,0 +1,19 @@
+
+  1. Singleton là gì?
+
+            - Singleton là 1 trong 5 design pattern của nhóm Creational Design Pattern.
+
+            - Singleton pattern là một pattern khởi tạo mà:
+                        + Đảm bảo rằng một class chỉ có duy nhất một instance (khởi tạo).
+                        + Và cung cấp một cách toàn cục để truy cấp tới instance đó.
+
+  2. Cấu trúc Singleton?
+
+
+
+  3. Một số ứng dụng của Singleton Pattern
+
+            - Trường hợp giải quyết các bài toán cần truy cập vào các ứng dụng như:
+            truy cập giao diện phần cứng, tệp cấu hình, Shared resource, Logger, Configuration, Caching, Thread pool ,...
+            -Một số design pattern khác cũng sử dụng Singleton để triển khai: Abstract Factory, Builder, Prototype, Facade,…
+            -Đã được sử dụng trong một số class của core java như: java.lang.Runtime, java.awt.Desktop.
